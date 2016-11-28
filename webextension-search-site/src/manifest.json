@@ -1,12 +1,12 @@
 {
 	"manifest_version": 2,
-    "version": "0.1",
-    "name": "Search Site",
-    "description": "Search webpages matching site.",
-    "homepage_url": "https://github.com/samwhelp/webextension-practice/tree/master/webextension-search-site/src",
-    "icons": {
-        "48": "icons/search.48.png"
-    },
+	"version": "0.1",
+	"name": "Search Site",
+	"description": "Search webpages matching site.",
+	"homepage_url": "https://github.com/samwhelp/webextension-practice/tree/master/webextension-search-site/src",
+	"icons": {
+		"48": "icons/search.48.png"
+	},
 	"permissions": [
 		"tabs"
 	],
