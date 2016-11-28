@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+    "version": "0.1",
+    "name": "Search Site Embedded",
+    "description": "Search webpages matching site.",
+    "homepage_url": "https://github.com/samwhelp/webextension-practice/webextension-search-site-embedded",
+    "icons": {
+        "48": "icons/search.48.png"
+    },
+    "content_scripts": [{
+		"matches": ["*://*/*"],
+        "js": ["search.js"]
+    }]
+}
