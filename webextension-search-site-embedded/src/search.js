@@ -6,7 +6,7 @@
 		/*
 		<form target="_blank" accept-charset="utf-8" method="get" action="//www.google.com/search">
 			關鍵字：
-			<input type="search" name="q" placeholder="Search site:$site_url" />
+			<input type="search" name="q" placeholder=" site:$site_url" />
 			<input type="hidden" name="sitesearch" value="$site_url" />
 			<input type="submit" value="搜尋" />
 		</form>
@@ -22,17 +22,15 @@
 		form.acceptCharset = 'utf-8';
 
 
-		/*
-		//Search site:$site_url
-		var title = document.createTextNode('Search site:' + site_url);
+		//關鍵字：
+		var title = document.createTextNode('關鍵字：');
 		form.appendChild(title);
-		*/
 
 
 		//<input type="search" name="q" placeholder="Search Ubuntu TW" />
 		var keyword = document.createElement('input');
 		keyword.name = 'q';
-		keyword.placeholder = 'Search site:' + site_url;
+		keyword.placeholder = ' site:' + site_url;
 		form.appendChild(keyword);
 
 
