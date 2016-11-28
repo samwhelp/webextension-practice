@@ -8,12 +8,12 @@
 
 	}
 
-	function find_site (url) {
+	function find_site(url) {
 		var location = new_location(url);
 		return location.host; //https://developer.mozilla.org/en-US/docs/Web/API/URL
 	}
 
-	function init_form (site) {
+	function init_form(site) {
 		//https://developer.mozilla.org/en-US/docs/Web/API/Document/forms
 		//https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement
 		//https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements
@@ -29,7 +29,7 @@
 		//document.getElementById('ipt_site').placeholder = ' site:' + site;
 	}
 
-	function find_tab_url () {
+	function find_tab_url() {
 		//https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs/query
 		//https://github.com/mdn/webextensions-examples/blob/master/bookmark-it/background.js
 		//https://developer.chrome.com/extensions/tabs
@@ -53,7 +53,7 @@
 		);
 	}
 
-	function init () {
+	function init() {
 		find_tab_url();
 	}
 

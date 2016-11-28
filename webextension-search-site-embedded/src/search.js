@@ -1,7 +1,7 @@
 
 !function() {
 
-	function embed_search_control (site_url) {
+	function embed_search_control(site_url) {
 
 		/*
 		<form target="_blank" accept-charset="utf-8" method="get" action="//www.google.com/search">
@@ -73,7 +73,7 @@
 
 	}
 
-	function find_site (url) {
+	function find_site(url) {
 		var location = new_location(url);
 		return location.host; //https://developer.mozilla.org/en-US/docs/Web/API/URL
 	}
