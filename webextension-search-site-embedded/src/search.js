@@ -8,7 +8,7 @@
 			關鍵字：
 			<input type="search" name="q" placeholder="Search site:$site_url" />
 			<input type="hidden" name="sitesearch" value="$site_url" />
-			<input type="submit" value="查詢" />
+			<input type="submit" value="搜尋" />
 		</form>
 		*/
 
@@ -44,10 +44,10 @@
 		form.appendChild(site);
 
 
-		//<input type="submit" value="查詢" />
+		//<input type="submit" value="搜尋" />
 		var search = document.createElement('input');
 		search.type = 'submit';
-		search.value = '查詢';
+		search.value = '搜尋';
 		/*
 		search.addEventListener('click', function(evt) {
 			//evt.target.innerHTML = "click count: " + evt.detail;
