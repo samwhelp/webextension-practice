@@ -32,6 +32,7 @@ $ git clone https://github.com/samwhelp/webextension-practice.git
 
 請閱讀「[src/README.md](src/README.md)」
 
+![示意圖](img/concept.png)
 
 ## 相關網址
 
