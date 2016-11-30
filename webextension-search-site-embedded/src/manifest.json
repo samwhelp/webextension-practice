@@ -8,7 +8,7 @@
 		"48": "icons/search.48.png"
 	},
 	"content_scripts": [{
-		"matches": ["*://*/*"],
+		"matches": ["<all_urls>"],
 		"js": ["search.js"]
 	}]
 }

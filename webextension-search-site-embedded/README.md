@@ -45,3 +45,17 @@ $ git clone https://github.com/samwhelp/webextension-practice.git
 ## 相關專案
 
 * [webextension-search-ubuntu-tw](https://github.com/samwhelp/webextension-search-ubuntu-tw)
+
+
+## 開發文章
+
+### MDN
+
+* [Your first WebExtension](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension)
+* [Anatomy of a WebExtension](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Anatomy_of_a_WebExtension)
+* [Match patterns](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns)
+* [Example WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples)
+
+### Chrome
+
+* [Match Patterns](https://developer.chrome.com/extensions/match_patterns)
