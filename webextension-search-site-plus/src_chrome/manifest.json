@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"version": "0.1",
+	"name": "Search Site Plus",
+	"description": "Search webpages matching site.",
+	"homepage_url": "https://github.com/samwhelp/webextension-practice/tree/master/webextension-search-site-plus/src_chrome",
+	"icons": {
+		"48": "icons/search.48.png"
+	},
+	"permissions": [
+		"tabs"
+	],
+	"browser_action": {
+		"default_icon": "icons/search.32.png",
+		"default_title": "Search Site",
+		"default_popup": "search.html"
+	}
+}

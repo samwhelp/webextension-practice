@@ -1,0 +1,43 @@
+
+/*
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form
+*/
+
+body {
+	 background-color: white;
+}
+
+form {
+	margin: 0 auto;
+	width: 410px;
+	padding: 1em;
+	/*
+	border: 1px solid #CCC;
+	border-radius: 1em;
+	*/
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+input, textarea {
+	font: 1em sans-serif;
+	width: 300px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #999;
+}
+
+.box_btn {
+    padding-left: 104px;
+}
+button {
+    margin-left: .5em;
+}
